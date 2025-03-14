@@ -1,0 +1,133 @@
+
+body {
+  background-color: rgb(245, 240, 231)
+
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 270px);
+  gap: 25px;
+  justify-items: start;
+  
+}
+
+.item img{
+  width: 100%; 
+  max-width: 270px;  
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: -25px;
+
+}
+
+.bt{
+  background-color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  border: 1px solid rgb(116, 101, 57);
+  border-radius: 50px;
+  color:rgb(16, 15, 15);
+  font-weight: bolder;
+  display: inline-flex;
+  align-items: center;  
+  justify-content: center; 
+  white-space: nowrap;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+
+  
+} 
+
+.bt-2 {
+  background-color:rgb(216, 90, 0);
+  color:rgb(252, 252, 252);
+  padding: 11px 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bolder;
+  display: inline-flex;
+  justify-content: space-between; 
+  align-items: center;
+  white-space: nowrap;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: -2px;
+} 
+
+.cart-icon {
+  height: auto;  
+  margin-right: 10px;  
+  max-width: 100%;  
+  object-fit: contain;
+  margin-top:-25px;
+}
+
+.order {
+  display: none;
+  background-color: rgb(246, 246, 246);
+  position: absolute;
+  top: 2%;
+  right:3%;
+  width:27%;
+  border-radius: 10px;;
+}
+
+.item-1 p ,.item-2 p, .item-3 p {
+  color: rgb(144, 123, 123);
+  text-align: left;
+  font-weight: bold;
+  line-height: 54%;
+  font-size: 17px;
+}
+
+.bt:hover{
+  color: orange;
+  border:1.6px solid orange;
+  cursor: pointer;
+}
+
+.minus, .plus {
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 15px; 
+  padding: 3px 9px;
+}
+
+.minus:hover, .plus:hover {
+  background-color: white;
+  color:chocolate;
+  font-weight: bolder;
+}
+
+.number {
+  font-size: 17px;
+  text-align: center; 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.cart {
+  background-color: rgb(246, 246, 246);
+  position: absolute;
+  top: 2%;
+  right:3%;
+  width:27%;
+  border-radius: 10px;;
+}
+
+.cart h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.cart p {
+  font-size: 12px;
+  color:rgba(78, 60, 6, 0.6);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-bottom: 40px;
+
+}
+
