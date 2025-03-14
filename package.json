@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "axios": "^1.8.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
